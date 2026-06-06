@@ -205,28 +205,6 @@ class _SplashViewState extends State<SplashView> with TickerProviderStateMixin {
               child: child,
             );
           },
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Container(
-                width: 32,
-                height: 3,
-                decoration: BoxDecoration(
-                  color: AppColors.accent.withValues(alpha: 0.4),
-                  borderRadius: BorderRadius.circular(4),
-                ),
-              ),
-              const SizedBox(height: 12),
-              Text(
-                'Made for India 🇮🇳',
-                style: GoogleFonts.inter(
-                  fontSize: 12,
-                  color: AppColors.muted,
-                  fontWeight: FontWeight.w500,
-                ),
-              ),
-            ],
-          ),
         ),
       ),
     );
